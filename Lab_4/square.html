@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Блочная модель</title>
+    <style>
+        .container {
+            text-align: center;
+        }
+
+        .border {
+            display: inline-block;
+            text-align: center;
+            font-size: 30px;
+            margin: 1px;
+            border: 5px solid black;
+        }
+
+        #border {
+            box-sizing: border-box;
+            width: 110px;
+            height: 110px;
+        }
+
+        #content {
+            box-sizing: content-box;
+            width: 100.67px;
+            height: 100.67px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="border" id="border">1</div>
+        <div class="border" id="content">2</div>
+    </div>
+</body>
+
+</html>

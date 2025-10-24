@@ -1,0 +1,20 @@
+td {padding: 30px;
+border: 1px solid;}
+
+table {
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 0px;
+}
+
+td:first-child,td:last-child {empty-cells: hide;}
+td:first-child,td:last-child{padding: 15px;background-color: grey;}
+#edge td {
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(2n+3):not(:nth-child(n+10)) td:nth-child(2n+2):not(:nth-child(n+9)) {background-color: black;}
+tr:nth-child(2n+2):not(:nth-child(n+10)) td:nth-child(2n+3):not(:nth-child(n+10)) {background-color: black;}
+  

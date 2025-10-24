@@ -1,0 +1,40 @@
+table{
+  margin: 0 auto;
+}
+
+.vendors td, tr {
+  border: 1px solid black;
+}
+
+.vendors {
+  empty-cells: hide;
+}
+
+th {
+  background-color: darkblue;
+  color: white;
+}
+
+.number {
+  font-weight: bold;
+}
+
+.vendors td:nth-child(2) {
+  background-color: #00BFFF;
+  color: white ;
+}
+
+.vendors td:nth-child(3)  {
+  background-color: purple;
+  color: white ;
+}
+
+.vendors td:nth-child(4) {
+  background-color: green;
+  color: white ;
+}
+
+caption {
+  font-size: 1.2em;
+  text-align: center;
+}

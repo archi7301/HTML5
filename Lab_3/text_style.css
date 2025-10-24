@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Caveat';
+    src: url('fonts/caveat/static/Caveat-Regular.ttf');
+}
+
+h1 {
+    font-family: 'Caveat';
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 45px;
+    text-shadow: 3px 3px #000;
+}
+
+
+@font-face {
+    font-family: 'Exo2';
+    src: url('fonts/exo2/static/Exo2-Black.ttf');
+}
+
+h2 {
+    font-family: 'Exo2';
+    margin-top: 0.2em;
+    margin-bottom: 1.2em;
+    text-indent: 25px;
+    text-align: left;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('fonts/comfortaa/static/Comfortaa-Regular.ttf');
+}
+
+p {
+    font-family: 'Comfortaa';
+    text-indent: 25px;
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 200%;
+    font-size: 20px;
+    
+
+}
+
+p::first-letter {
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
+    background-color: hsla(275, 100%, 10%, 1);
+}
+
+
+ol {
+    list-style-type: upper-roman;
+    font-size: 20px;
+    font-family: 'Comfortaa';
+}
+
+ol li::marker {
+    color: blue;
+}
+
+.list h2{
+    margin-bottom: 0;
+}
+
+p.string {
+    font-family: 'Comfortaa';
+    font-size: 20px;
+    text-indent: 25px;
+}
+
+p.string::first-line {
+    color: red;
+}
+
+p.string::first-letter {
+    all: unset;
+}

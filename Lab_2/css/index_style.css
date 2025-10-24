@@ -1,0 +1,26 @@
+h1, h2, h3 {
+    color: #8c03fc;
+    font-family: Monotype Corsiva;
+}
+
+.first {
+    color: red;
+    font-family:Times New Roman;
+    font-size: 18pt
+}
+
+.second {
+    color: yellow;
+    font-family:Times New Roman;
+    font-size: 20pt
+}
+
+.third {
+    color: green;
+    font-family:Times New Roman;
+    font-size: 22pt
+}
+
+table td, tr {
+    color: red;
+}

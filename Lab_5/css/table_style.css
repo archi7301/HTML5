@@ -1,0 +1,27 @@
+.table {
+  border-collapse: collapse; 
+  width: 80%;               
+  margin: 0 auto;            
+  text-align: center;         
+}
+
+.table thead th {
+  background-color: red; 
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.table td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;        
+}
+
+.day {
+  background-color: yellow; 
+  width: 60px;               
+}
+
+.blinia {
+    border-bottom: 3px solid #000;
+}

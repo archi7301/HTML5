@@ -1,0 +1,129 @@
+div {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  font-size: 50px;
+  text-align: center;
+  line-height: 100px;
+}
+
+
+.red {
+  border: 15px outset rgb(255, 0, 0);
+}
+
+.green {
+  border: 15px dashed rgb(0, 255, 0);
+}
+
+.blue {
+  border: 15px dotted rgb(0, 0, 255);
+}
+
+.azure {
+  border: 15px double rgb(0, 255, 255);
+}
+
+.purple {
+  border: 15px ridge rgb(255, 0, 255);
+}
+
+.yellow {
+  border: 15px inset rgb(255, 255, 0);
+}
+
+.black {
+  border: 15px solid rgb(0, 0, 0);
+}
+
+span {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  background-color: #FFA500;
+  border: 2px solid #FF4500;
+}
+
+.dog {
+  width: 400px;
+  text-align: center;
+  border: 3px solid #FF7F50;
+}
+
+.ocean {
+  border: 5px solid red;
+  border-radius: 20px / 40px;
+  box-shadow: inset 2px 2px 8px 8px rgba(0, 0, 0, .5);
+  overflow: auto;
+}
+
+.technology {
+  border: 3px solid #FF6347;
+}
+
+#q {
+  border-style: solid;
+  border-width: 2px;
+  border-color: orange navy yellow brown;
+  width: 700px;
+}
+
+#w {
+  border-left: 2px solid #007BA7;
+  border-right: 2px solid #007BA7;
+  width: 300px;
+}
+
+#e {
+  border-top: 2px solid rgb(229, 43, 80);
+  border-left: 2px dashed rgb(0, 191, 255);
+  border-right: 2px dashed rgb(0, 191, 255);
+  border-bottom: 2px dashed rgb(0, 191, 255);
+  width: 700px;
+}
+
+#r {
+  border: 1px dotted orange;
+  width: 350px;
+}
+
+#t {
+  border-style: dashed;
+  border-width: 2px;
+  border-top-color: navy;
+  border-bottom-color: navy;
+  border-left-color: rgb(63, 0, 0);
+  border-right-color: rgb(63, 0, 0);
+  width: 850px;
+}
+
+#y {
+  border: 5px double #B3446C;
+  width: 300px;
+}
+
+#u {
+  border-top: 1px dashed #808000;
+  border-bottom: 3px solid #FF7518;
+  width: 900px;
+}
+
+#i {
+  border-left: 2px double #CC7722;
+  border-bottom: 2px double #CC7722;
+  width: 400px;
+}
+
+#o {
+  border-top: 2px ridge #B5A642;
+  border-right: 2px ridge #B5A642;
+  width: 350px;
+}
+
+#p {
+  border-bottom: 5px dotted rgb(0, 40, 0);
+  border-left: 5px dotted rgb(0, 40, 0);
+  border-right: 5px dotted rgb(0, 40, 0);
+  width: 500px;
+}

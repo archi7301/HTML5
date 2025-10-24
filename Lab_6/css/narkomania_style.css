@@ -1,0 +1,47 @@
+table {
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 5px;
+}
+
+td {padding: 100px;
+border: 1px solid;}
+
+.img1 {
+  background: linear-gradient(to bottom, blue, red);
+}
+
+.img2 {background: repeating-linear-gradient(
+    45deg,
+    red,
+    red 10px,
+    blue 10px,
+    blue 20px
+  );}
+
+.img3 {background: radial-gradient(circle, yellow, green)}
+
+.img4 {
+  background: repeating-radial-gradient(
+  circle at center,
+  green 0px,
+  green 10px,
+  yellow 10px,
+  yellow 20px
+  );}
+
+.img5 {
+  background:
+    radial-gradient(
+      circle at 50% 50%,
+      yellow 5%,   
+      green 50%,
+      #00000000
+    ),
+    linear-gradient(
+      to bottom,
+      blue 0%,  
+      rgb(255, 72, 255) 100%
+    );
+}
+

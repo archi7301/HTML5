@@ -1,0 +1,37 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.list {
+    list-style-type: none;
+}
+
+ul li {
+    list-style: none;
+    background-image: url('images/hurt.png');
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 25px;
+}
+
+body {
+    background-image: url('images/fit.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: scroll;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+
+}
+
+p {
+    color: black;
+}

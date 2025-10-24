@@ -1,0 +1,31 @@
+form {
+    background-color: indigo;
+    width: 25%;
+    color: white;
+    font-size: 1.2em;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+    background-color: rgba(255, 255, 255, .5);
+    color: rgba(255, 255, 255, 1);
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, .75);
+}
+
+input[type="email"] {
+    background-color: rgba(255, 255, 255, .5);
+    color: rgba(255, 255, 255, 1);
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, .75);
+}
+
+input:focus:not([id="email"]) {
+    background-color: white !important;
+    color: black !important;
+}
+
+input[type="submit"] {
+    background-color: navy;
+    color: white;
+    box-shadow: 0 0 4px white
+}

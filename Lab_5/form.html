@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/form_style.css" media="all">
+    <title>registration</title>
+</head>
+
+<body>
+    <form>
+        <h3>Регистрация постоянного клиента</h3>
+        <table>
+            <tr>
+                <td><label for="surname">Фамилия</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="name">Имя</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="name">Отчество</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="age">Ваш возраст</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Пол</label></td>
+                <td><input type="checkbox">Мужской
+                    <input type="checkbox">Женский
+                </td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="text" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="country">Страна проживания</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="about">Откуда вы узнали о нас?</label></td>
+                <td>
+                    <select name="list">
+                        <option value="" selected disabled hidden>Выберите вариант</option>
+                        <option value="website">На сайте</option>
+                        <option value="friends">От друзей</option>
+                        <option value="advertisement">В рекламе</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="date">Дата заполнения</label></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Регистрация">
+                    <input type="submit" value="Отмена">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
